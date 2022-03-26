@@ -87,6 +87,25 @@ a.projects__filter{
     display: flex;
     padding: 10px 5px;
 }
+.novost__content{
+    max-width: 1106px;
+}
+.novost__content > img{
+    width: 100%;
+}
+.we__trio ,.we__all{
+    margin: 180px 20px;
+}
+.we__trio .container .row{
+    justify-content: space-between !important
+}
+.top-whywe {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right__why_mobile{
+    display: none;
+}
 @media (max-width:1460px){
     .top__arts{
         overflow-x: auto;
@@ -105,8 +124,38 @@ a.projects__filter{
         font-size: 40px;
 
     }
+ 
+}
+@media (max-width:1330px){
+    .row_whywe {
+        position: relative;
+        margin: 0 -15px;
+        padding: 0px 0 340px;
+    }
+    .left_whywe {
+        max-width: 640px;
+    }
+    .right_whywe {
+        position: absolute;
+        right: 0;
+        bottom: -89px;
+        display: flex;
+    }
 }
 @media (max-width:1300px){
+    .why_plus_row {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        margin-top: 126px;
+
+    }
+    .why_plus_item.long {
+        width: 570px;
+        flex-shrink: 1;
+        min-width: 315px;
+    }
     .tovar4__imgs{
         overflow-x: auto;
     }
@@ -205,6 +254,71 @@ a.projects__filter{
     }
 }
 @media (max-width:1000px){
+    .img_why_txt2 {
+        margin: auto;
+        position: relative;
+        max-width: 612px;
+        width: 100%;
+    }
+    .img_why_txt {
+        width: 360px;
+        position: relative;
+        margin: auto;
+    }
+    .sub__img__cpl3{
+        max-width: 300px;
+        margin: 10px auto;
+    }
+    .sub__img__cpl3 > img{
+        width: 100%;
+    }
+    .sub__img__cpl2{
+        margin: auto;
+    width: 160px;
+    height: 160px;
+    }
+    .sub__img__cpl{
+        max-width: 280px;
+        margin: 10px auto;
+    }
+    .sub__img__cpl > img {
+        width: 100%;
+        height: 160px;
+    }
+    .right_whywe_subcol{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .right__why_mobile{
+        display: block;
+    }
+    .row_whywe {
+        padding: 0px 0 0px;
+    }
+    .right_whywe{
+        display: none;
+    }
+    .left_whywe{
+        max-width: unset;
+    }
+    .we__trio .container .row{
+        flex-direction: column;
+    }
+    .col_trio:nth-child(2) {
+         margin-left: 120px;
+    }   
+    .col_trio:nth-child(3) {
+        margin-left: 180px;
+   }     
+    .catalog4  {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .vacancy__middle{
+        order: -1;
+        margin-bottom: 20px;
+
+    }
     .right__tovar{
         width: 100%;
     }
@@ -488,8 +602,58 @@ margin: auto;
     margin-right: 0;
     width: 240px;
 }
+.we__all .col_we {
+    margin-bottom: 30px;
+    max-width: 240px;
+}
 }
 @media (max-width:767px){
+    .works__el-text {
+        max-width: unset;
+    }
+
+    .works__el-title{
+        font-size: 30px;
+    }
+    .we__all {
+        margin: 70px 20px;
+    }
+    .trio_name {
+        font-size: 25px;
+        line-height: 37px;
+        margin-bottom: 10px;
+    }
+    .col_trio:nth-child(2) {
+        margin-left: 60px;
+    }
+    .col_trio:nth-child(3) {
+        margin-left: 110px;
+    }
+    .we__trio{
+        margin-top: 240px;
+
+    }
+    .col_trio {
+        max-width: 300px;
+    }
+    .page-inner.page-we h1 {
+        font-size: 40px;
+        max-width: 720px;
+      
+    }
+    .vacancy__tel{
+        font-size: 25px;
+    }
+    .vacancy__el-title {
+        font-size: 30px;
+    }
+    .uses__el-block span {
+        font-size: 30px;
+    }
+    .page-inner .article__detail-head h1{
+        font-size: 30px !important;
+        line-height: 30px;
+    }
     .projects__top{
         flex-wrap: wrap;
         justify-content: space-between;
@@ -819,8 +983,18 @@ margin: auto;
     left: 50%;
     width: 35%;
 }
+.use--mod .use__gallery {
+    width: unset !important;
+}
 }
 @media (max-width:630px){
+    .catalog4__block > h2{
+        font-size: 25px !important;
+    }
+    .uses__el-block{
+        padding: 0 15px;
+
+    }
     .tovar2__fotki-block4 {
         bottom: 0;
         transform: translateY(85%);
@@ -853,8 +1027,31 @@ margin: auto;
 .quotes1__hh {
     font-size: 30px;
 }
+
 }
 @media (max-width:550px){
+    .works__el-title{
+        font-size: 24px;
+    }
+    .we__all .col_we {
+        margin-bottom: 30px;
+        max-width: 140px;
+    }
+    .article__detail-head{
+        padding: 10px;
+    }
+    .uses__el{
+        height: 200px;
+    }
+    .uses__el-block{
+        height: 90px;
+    }
+    .uses__el-nmb{
+        font-size: 82px;
+    }
+    .uses__el-block span {
+        font-size: 20px;
+    }
     .gadty > div{
         margin-right: 15px;
     }
