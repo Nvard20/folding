@@ -27,21 +27,33 @@
       <div class="header__top">
          <div class="container">
             <div class="row m-0">
-               <div class="burger"><img src="img/burger.png" alt=""></div>
+               <div class="burger">
+                  <a data-js="menuOpen" data-id="#hidden1">
+                     <img src="img/burger.png" alt="" class="open">
+                     <img src="img/close2.svg" class="close">
+                  </a>
+               </div>
+               <h2 class="title">Меню</h2>
                <a href="index.html" class="header__logo"><img src="img/logo.svg" alt=""></a>
                <menu>
                   <a href="arch.html" data-id="arch">Архитекторам</a>
                   <a href="client.html" data-id="client" class="active">Клиентам</a>
                   <a href="partners.html" data-id="partners">Партнерам</a>
                </menu>
-               <a href="lk.html" class="header__lk"></a>
+               <a href="lk.html" class="header__lk" data-js="lkOpen" data-id="#hidden2"></a>
             </div>
          </div>
       </div>
       <div class="header__bottom">
          <div class="container pr">
             <div class="row m-0">
-               <div class="burger"><img src="img/burger.png" alt=""></div>
+               <div class="burger">
+                  <a data-js="menuOpen" data-id="#hidden1">
+						   <img src="img/burger.png" alt="" class="open">
+						   <img src="img/close2.svg" class="close">
+					    </a>  
+               </div>
+               <h2 class="title">Меню</h2>
                <a href="index.html" class="header__logo"><img src="img/logo.svg" alt=""></a>
                <menu>
                   <li class="li-parent active">
@@ -99,7 +111,7 @@
                      <a href="contacts.html">Контакты</a>
                   </li>
                </menu>
-               <a href="lk.html" class="header__lk"></a>
+               <a href="lk.html" class="header__lk" data-js="lkOpen" data-id="#hidden2"></a>
             </div>
          </div>
       </div>
@@ -358,6 +370,822 @@
          </div>
       </div>
    </div>
+
+   <div class="start__hidden" id="hidden1">
+
+      <div class="nav-tabs">
+          <div class="row">
+              <ul class="nav nav-tabs">
+                  <li><a data-href="architectures">Архитекторам</a></li>
+                  <li class="active"><a data-href="clients">Клиентам</a></li>
+                  <li><a data-href="partners">Партнерам</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="tab-content">
+          <div class="tab-item" id="architectures">
+              <div class="row">
+                  <div class="hidden__col hidden__col4">
+                      <a data-href="hidden7" class="hidden__hh inner-url">Продукция</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu1.svg" alt="" class="mr-2">Раздвижные стены</a>
+                      <a href="product.html" class="hidden__a">Раздвижная стена NORMA</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные стены President</a>
+                      <a href="product.html" class="hidden__a">СПолуавтоматические стены NORMA <span class="hidden__ps">Новинка</span></a>
+                      <a href="product.html" class="hidden__a">Огнеупорные стены NORMA</a>
+                      <a href="product.html" class="hidden__a">Разборные раздвижные стены NORMA <span class="hidden__ps">Новинка</span> </a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu2.svg" alt="" class="mr-2">Раздвижные перегородки</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Winab</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные перегородки Scan-Mikael</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Напольно-потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma огнеупорные</a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu3.svg" alt="" class="mr-2">Материалы отделки</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu4.svg" alt="" class="mr-2">Новинки</a>
+                      <a href="calc.html" class="hidden__hh2 c--brown"><img src="img/calc5.svg" alt="" class="mr-2 opacity-1">Калькулятор</a>
+                  </div>
+                  <div class="hidden__col hidden__col5">
+                      <a href="uses.html" class="hidden__hh no-arrow">Области применения</a>
+                      <a href="us.html" class="hidden__a">Офисы</a>
+                      <a href="us.html" class="hidden__a">Переговорные</a>
+                      <a href="us.html" class="hidden__a">Кабинеты руководителя</a>
+                      <a href="us.html" class="hidden__a">Конференц. залы</a>
+                      <a href="us.html" class="hidden__a">Бизнес центры</a>
+                      <a href="us.html" class="hidden__a">Банки</a>
+                      <a href="us.html" class="hidden__a">Торговые центры</a>
+                      <a href="us.html" class="hidden__a">Автосалоны</a>
+                      <a href="us.html" class="hidden__a">Медицина</a>
+                      <a href="us.html" class="hidden__a">Гостиницы</a>
+                      <a href="us.html" class="hidden__a">Рестораны</a>
+                      <a href="us.html" class="hidden__a">Концертные залы</a>
+                      <a href="us.html" class="hidden__a">Спортивные залы</a>
+                      <a href="us.html" class="hidden__a">Танцевальные студии</a>
+                      <a href="us.html" class="hidden__a">Детские сады</a>
+                      <a href="us.html" class="hidden__a">Школы</a>
+                      <a href="us.html" class="hidden__a">Жилые помещения</a>
+                      <a href="us.html" class="hidden__a">И другие..</a>
+                  </div>
+                  <div class="hidden__col hidden__col6">
+                      <a href="projects.html" class="hidden__hh no-arrow">Проекты</a>
+                      <a href="projects.html" class="hidden__a">Фотографии</a>
+                      <a href="projects.html" class="hidden__a">Видеоролики</a>
+      
+                      <a data-href="hidden5" class="hidden__hh mt-4 inner-url">Информация</a>
+                      <a href="contacts.html" class="hidden__a">Контакты</a>
+                      <a href="delivery.html" class="hidden__a">Доставка</a>
+                      <a href="garanty.html" class="hidden__a">Гарантии и сертификаты</a>
+                      <a href="works.html" class="hidden__a">Как мы работаем</a>
+                      <a href="quotes.html" class="hidden__a">Отзывы</a>
+                      <a href="vacancy.html" class="hidden__a">Вакансии</a>
+      
+                      <a data-href="hidden6" class="hidden__hh mt-4 inner-url">О компании</a>
+                      <a href="history.html" class="hidden__a">История</a>
+                      <a href="vacancy.html" class="hidden__a">Наши лица</a>
+                      <a href="news.html" class="hidden__a">Новости</a>
+                      <a href="news.html" class="hidden__a">Статьи</a>
+                      <a href="news.html" class="hidden__a">Почему мы</a>
+                      <a href="news.html" class="hidden__a">FAQ</a>
+                  </div>
+                  <div class="hidden__col hidden__col6">
+                      <a href="news.html" class="hidden__hh">Последние
+                          новости</a>
+                      <div class="row-wrap">
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu1.jpg);">Расширение продукции
+                              в каталоге</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu2.jpg);">Открываем вакансии</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu3.jpg);">Осенние скидки до 50%</a>
+                      </div>
+                      <div class="hidden__del"></div>
+                      <a href="tel:88007752691" class="hidden__link"><img src="img/f2.svg" alt="" class="mr-2">8 (800) 775-26-91</a>
+                      <a href="mailto:info@foldin.ru" class="hidden__link"><img src="img/f3.svg" alt="" class="mr-2">info@foldin.ru</a>
+      
+                      <a data-href="hidden3" class="btn btn--blue mt-2 p-0 w-50 btn-click">Заказать звонок<img src="img/tel2.svg" alt="" class="ml-2"></a>
+                      <a data-href="hidden4" class="btn btn--gray mt-2 p-0 w-50 btn-click">Калькулятор<img src="img/calc2.svg" alt="" class="ml-2"></a>
+                  </div>
+              </div>
+          </div>
+          <div class="tab-item active" id="clients">
+              <div class="row">
+                  <div class="hidden__col hidden__col4">
+                      <a data-href="hidden7" class="hidden__hh inner-url">Продукция</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu1.svg" alt="" class="mr-2">Раздвижные стены</a>
+                      <a href="product.html" class="hidden__a">Раздвижная стена NORMA</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные стены President</a>
+                      <a href="product.html" class="hidden__a">СПолуавтоматические стены NORMA <span class="hidden__ps">Новинка</span></a>
+                      <a href="product.html" class="hidden__a">Огнеупорные стены NORMA</a>
+                      <a href="product.html" class="hidden__a">Разборные раздвижные стены NORMA <span class="hidden__ps">Новинка</span> </a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu2.svg" alt="" class="mr-2">Раздвижные перегородки</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Winab</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные перегородки Scan-Mikael</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Напольно-потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma огнеупорные</a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu3.svg" alt="" class="mr-2">Материалы отделки</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu4.svg" alt="" class="mr-2">Новинки</a>
+                      <a href="calc.html" class="hidden__hh2 c--brown"><img src="img/calc5.svg" alt="" class="mr-2 opacity-1">Калькулятор</a>
+                  </div>
+                  
+                  <div class="hidden__col hidden__col6">
+                      
+      
+                      <a data-href="hidden5" class="hidden__hh mt-4 inner-url">Информация</a>
+                      <a href="contacts.html" class="hidden__a">Контакты</a>
+                      <a href="delivery.html" class="hidden__a">Доставка</a>
+                      <a href="garanty.html" class="hidden__a">Гарантии и сертификаты</a>
+                      <a href="works.html" class="hidden__a">Как мы работаем</a>
+                      <a href="quotes.html" class="hidden__a">Отзывы</a>
+                      <a href="vacancy.html" class="hidden__a">Вакансии</a>
+      
+                      <a data-href="hidden6" class="hidden__hh mt-4 inner-url">О компании</a>
+                      <a href="history.html" class="hidden__a">История</a>
+                      <a href="vacancy.html" class="hidden__a">Наши лица</a>
+                      <a href="news.html" class="hidden__a">Новости</a>
+                      <a href="news.html" class="hidden__a">Статьи</a>
+                      <a href="news.html" class="hidden__a">Почему мы</a>
+                      <a href="news.html" class="hidden__a">FAQ</a>
+                  </div>
+                  <div class="hidden__col hidden__col6">
+                      <a href="news.html" class="hidden__hh">Последние
+                          новости</a>
+                      <div class="row-wrap">
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu1.jpg);">Расширение продукции
+                              в каталоге</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu2.jpg);">Открываем вакансии</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu3.jpg);">Осенние скидки до 50%</a>
+                      </div>
+                      <div class="hidden__del"></div>
+                      <a href="tel:88007752691" class="hidden__link"><img src="img/f2.svg" alt="" class="mr-2">8 (800) 775-26-91</a>
+                      <a href="mailto:info@foldin.ru" class="hidden__link"><img src="img/f3.svg" alt="" class="mr-2">info@foldin.ru</a>
+      
+                      <a data-href="hidden3" class="btn btn--blue mt-2 p-0 w-50 btn-click">Заказать звонок<img src="img/tel2.svg" alt="" class="ml-2"></a>
+                      <a data-href="hidden4" class="btn btn--gray mt-2 p-0 w-50 btn-click">Калькулятор<img src="img/calc2.svg" alt="" class="ml-2"></a>
+                  </div>
+              </div>
+          </div>
+          <div class="tab-item" id="partners">
+              <div class="row">
+                  <div class="hidden__col hidden__col4">
+                      <a data-href="hidden7" class="hidden__hh inner-url">Продукция</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu1.svg" alt="" class="mr-2">Раздвижные стены</a>
+                      <a href="product.html" class="hidden__a">Раздвижная стена NORMA</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные стены President</a>
+                      <a href="product.html" class="hidden__a">СПолуавтоматические стены NORMA <span class="hidden__ps">Новинка</span></a>
+                      <a href="product.html" class="hidden__a">Огнеупорные стены NORMA</a>
+                      <a href="product.html" class="hidden__a">Разборные раздвижные стены NORMA <span class="hidden__ps">Новинка</span> </a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu2.svg" alt="" class="mr-2">Раздвижные перегородки</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Winab</a>
+                      <a href="product.html" class="hidden__a">Стеклянные раздвижные перегородки Scan-Mikael</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma Напольно-потолочный трек</a>
+                      <a href="product.html" class="hidden__a">Раздвижные перегородки Norma огнеупорные</a>
+      
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu3.svg" alt="" class="mr-2">Материалы отделки</a>
+                      <a href="catalog.html" class="hidden__hh2"><img src="img/menu4.svg" alt="" class="mr-2">Новинки</a>
+                      <a href="calc.html" class="hidden__hh2 c--brown"><img src="img/calc5.svg" alt="" class="mr-2 opacity-1">Калькулятор</a>
+                  </div>
+                  
+                  <div class="hidden__col hidden__col6">
+                      
+      
+                      <a data-href="hidden5" class="hidden__hh mt-4 inner-url">Информация</a>
+                      <a href="contacts.html" class="hidden__a">Контакты</a>
+                      <a href="delivery.html" class="hidden__a">Доставка</a>
+                      <a href="garanty.html" class="hidden__a">Гарантии и сертификаты</a>
+                      <a href="works.html" class="hidden__a">Как мы работаем</a>
+                      <a href="quotes.html" class="hidden__a">Отзывы</a>
+                      <a href="vacancy.html" class="hidden__a">Вакансии</a>
+      
+                      <a data-href="hidden6" class="hidden__hh mt-4 inner-url">О компании</a>
+                      <a href="history.html" class="hidden__a">История</a>
+                      <a href="vacancy.html" class="hidden__a">Наши лица</a>
+                      <a href="news.html" class="hidden__a">Новости</a>
+                      <a href="news.html" class="hidden__a">Статьи</a>
+                      <a href="news.html" class="hidden__a">Почему мы</a>
+                      <a href="news.html" class="hidden__a">FAQ</a>
+
+
+
+                      <a href="projects.html" class="hidden__hh no-arrow">Проекты</a>
+                      <a href="projects.html" class="hidden__a">Фотографии</a>
+                      <a href="projects.html" class="hidden__a">Видеоролики</a>
+
+
+
+                  </div>
+                  
+                  <div class="hidden__col hidden__col5">
+                     
+                  </div>
+
+                  <div class="hidden__col hidden__col6">
+                      <a href="news.html" class="hidden__hh">Последние
+                          новости</a>
+                      <div class="row-wrap">
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu1.jpg);">Расширение продукции
+                              в каталоге</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu2.jpg);">Открываем вакансии</a>
+                          <a href="news.html" class="hidden__menu" style="background-image: url(img/menu3.jpg);">Осенние скидки до 50%</a>
+                      </div>
+                      <div class="hidden__del"></div>
+                      <a href="tel:88007752691" class="hidden__link"><img src="img/f2.svg" alt="" class="mr-2">8 (800) 775-26-91</a>
+                      <a href="mailto:info@foldin.ru" class="hidden__link"><img src="img/f3.svg" alt="" class="mr-2">info@foldin.ru</a>
+      
+                      <a data-href="hidden3" class="btn btn--blue mt-2 p-0 w-50 btn-click">Заказать звонок<img src="img/tel2.svg" alt="" class="ml-2"></a>
+                      <a data-href="hidden4" class="btn btn--gray mt-2 p-0 w-50 btn-click">Калькулятор<img src="img/calc2.svg" alt="" class="ml-2"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  </div>
+
+  <div class="start__hidden" id="hidden2">
+      <div class="row">
+          <div class="hidden__col col-lg-4">
+              <div class="hidden__hh">Войдите в аккаунт и...</div>
+              <p>Откройте для себя дополнительные возможности по сотрудничеству с нашей компанией</p>
+              <p>Сотрудничайте с нами в роли архитектора или партнера</p>
+              <p>Сохраните контактные данные о себе, чтобы в дальнейшем не приходилось их вводить снова</p>
+              <p>Следите за свежими новостями  с персональными рассылками на вашу почту</p>
+          </div>
+          <div class="hidden__col  col-lg-4">
+              
+              <form action="" class="form form--mod2 form--mod3 w-100">
+                  <div class="ks-select select w-100 mb-3" name="">
+                      <div class="ks-select__current">
+                        <span><img src="img/select.svg" alt="" class="mr-2">Архитектор</span>
+                        <img src="img/arr4.svg" alt="" class="ml-2">
+                      </div>
+                      <div class="ks-select__block" style="display: none;">
+                          <div class="ks-select__list">
+                              <div class="ks-select__item active"><img src="img/select.svg" alt="" class="mr-2">Архитектор</div>
+                              <div class="ks-select__item"><img src="img/select.svg" alt="" class="mr-2">Клиент</div>
+                              <div class="ks-select__item"><img src="img/select.svg" alt="" class="mr-2">Партнер</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form__line">
+                      <input type="text" placeholder="Почта">
+                  </div>
+                  <div class="form__line">
+                      <input type="password" placeholder="Пароль">
+                  </div>
+                  <label for="politika" class="checkbox-wrap">
+                      <input type="checkbox" id="politika" style="display: none;" checked="">
+                      <div class="checkbox"></div>
+                      <span>Нажимая кнпоку “Отправить заявку”
+                          я соглашаюсь с Условиями обработки
+                          персональных данных</span>
+                  </label>
+                  <a href="lk.html" class="btn btn--blue w-100 p-0" type="submit">Войти <img src="img/arr3.svg" alt="" class="ml-3"></a>
+              </form>
+          </div>
+          <div class="hidden__col  col-lg-4">
+              <div class="tovar__el tovar__el--mod tovar__el--video" style="background-image: url(img/img7.jpg);">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/POmoZ--MpWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+ <div class="modal-close">
+    <div class="close-icon">
+       <img src="img/close2.svg" class="close">
+       <img src="img/arrow-left.png" class="arrow  hide">
+    </div>
+    
+ </div>
+ 
+ <div class="start__hidden" id="hidden3">
+      <div class="row">
+          <div class="hidden__col col-lg-4">
+               <h2 class="modal-title text-center">Консультация</h2>
+              <p class="text-center">Соберем ваш проект всего за 45 минут. Наш консультант свяжется с вами в ближайшее время для обсуждения всех деталей вашего заказа.</p>
+          </div>
+          <div class="hidden__col  col-lg-4">
+              
+              <form action="" class="form form--mod2 form--mod3 w-100">
+                  <div class="ks-select select w-100 mb-3" name="">
+                      <div class="ks-select__current">
+                        <span>Архитектор</span>
+                        <img src="img/arr4.svg" alt="" class="ml-2">
+                      </div>
+                      <div class="ks-select__block" style="display: none;">
+                          <div class="ks-select__list">
+                              <div class="ks-select__item active">Архитектор</div>
+                              <div class="ks-select__item">Клиент</div>
+                              <div class="ks-select__item">Партнер</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form__line">
+                      <input type="text" placeholder="Имя">
+                  </div>
+             <div class="form__line">
+                      <input type="text" placeholder="Почта">
+                  </div>
+                  <div class="form__line">
+                      <input type="tel" placeholder="Телефон">
+                  </div>
+          
+                
+             <a href="" class="btn w-100 p-0 gray-btn">Прикрепить проект <img src="images/icon.png"></a>
+              
+             <div class="form__line">
+                      <input type="text" placeholder="Примечания">
+                  </div>
+                   <label for="politika" class="checkbox-wrap">
+                      <input type="checkbox" id="politika" style="display: none;" checked="">
+                      <div class="checkbox"></div>
+                      <span>Нажимая кнпоку “Отправить заявку”
+                          я соглашаюсь с Условиями обработки
+                          персональных данных</span>
+                  </label>
+                  <a href="lk.html" class="btn btn--blue w-100 p-0" type="submit">Отправить заявку</a>
+              </form>
+          </div>
+        
+          
+      </div>
+  </div>
+
+
+ <div class="start__hidden" id="hidden4">
+      <div class="row">
+          <div class="hidden__col col-lg-4">
+               <h2 class="modal-title text-center">Калькулятор</h2>
+          </div>
+          <div class="hidden__col  col-lg-4">
+              
+              <form action="" class="form form--mod2 form--mod3 w-100">
+                  <div data-item="1" class="step-block active">
+                <div class="form_head">
+                   <div class="step-text">Шаг 1</div>
+                   Выбор конструкции
+                </div>
+                <div class="form_action">
+                   <div class="step active"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   
+                </div>
+                <div class="form-content">
+                   <div class="form-check-block">
+                      <p>Напольно-потолочная
+                         <br>
+                         перегородка НОРМА</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                         
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         Раздвижная
+                         <br>
+                         перегородка НОРМА
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         Раздвижная стена
+                         <br>
+                         НОРМА
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>Раздвижная стена
+                         <br>
+                         PARTHOS</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                   </div>
+                   <div class="question-block">
+                      <div><img src="img/question.png"></div>
+                      </p>Что такое конструкция “Раздвижная
+                      перегородка НОРМА”?</p>
+                   </div>
+                   <div class="btn-block">Перейти к выбору размера</div>
+                </div>
+                
+             </div>
+             <div data-item="2" class="step-block">
+                <div class="form_head">
+                   <div class="step-text">Шаг 2</div>
+                   Выбор размера
+                </div>
+                <div class="form_action">
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                </div>
+                <div class="form-content">
+                   <div class="form-input-block">
+                      <label>Ширина (мм)</label>
+                      <div class="input-mask">0</div>
+                      <div class="range">
+                         <input type="range" class="range slider" min="0" max="25000" value="0">
+                         <div class="scrollbar"></div>
+                      </div>
+                      
+                   </div>
+                   <div class="form-input-block">
+                      <label>Высота (мм)</label>
+                      <div class="input-mask">0</div>
+                      <div class="range">
+                         <input type="range" class="range slider" min="0" max="25000" value="0">
+                         <div class="scrollbar"></div>
+                      </div>
+                      
+                   </div>
+                   <div class="btn-block">Перейти к выбору уровня шумоизоляции</div>
+                </div>
+                
+
+             </div>
+             <div data-item="3" class="step-block">
+                <div class="form_head">
+                   <div class="step-text">Шаг 3</div>
+                   Выбор уровня звукоизоляции  
+                </div>
+                <div class="form_action">
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   
+                </div>
+                <div class="form-content">
+                   <div class="form-check-block checked">
+                      <p>37 дБ</p>
+                         <div class="check-item checked">
+                            <input type="checkbox" class="check-item" checked>
+                         </div>
+                         
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         43 дБ
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         46 дБ
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>50 дБ</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>53 дБ</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                   </div>
+                   
+                   <div class="btn-block">Перейти к выбору материала отделки</div>
+                </div>
+             </div>
+             <div data-item="4" class="step-block">
+                <div class="form_head">
+                   <div class="step-text">Шаг 4</div>
+                   Выбор материала отделки
+                </div>
+                <div class="form_action">
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step"></div>
+                   <div class="step"></div>
+                   
+                </div>
+                <div class="form-content">
+                   <div class="form-check-block">
+                      <p>MEL ЛДСП складская программа</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                         
+                   </div>
+                   <div class="form-check-block checked">
+                      <p>
+                         HPL Пластик Formica
+                      </p>
+                      <div class="check-item checked">
+                         <input type="checkbox" class="check-item" checked>
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         OAK Шпон складская программа
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   
+                   <div class="question-block">
+                      <div><img src="img/question.png"></div>
+                      </p>Что такое материал отделки “HPL Пластик Formica”?</p>
+                   </div>
+                   <div class="btn-block">Перейти к выбору типа парковки</div>
+                </div>
+             </div>
+             <div data-item="5" class="step-block">
+                <div class="form_head">
+                   <div class="step-text">Шаг 5</div>
+                   Выбор типа парковки
+                </div>
+                <div class="form_action">
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step active"></div>
+                   <div class="step"></div>
+                   
+                </div>
+                <div class="form-content">
+                   <div class="form-check-block">
+                      <p>OG</p>
+                         <div class="check-item">
+                            <input type="checkbox" class="check-item">
+                         </div>
+                         
+                   </div>
+                   <div class="form-check-block checked">
+                      <p>
+                         FG
+                      </p>
+                      <div class="check-item checked">
+                         <input type="checkbox" class="check-item" checked>
+                      </div>
+                   </div>
+                   <div class="form-check-block">
+                      <p>
+                         FG
+                      </p>
+                      <div class="check-item">
+                         <input type="checkbox" class="check-item">
+                      </div>
+                   </div>
+                   
+                   <div class="question-block">
+                      <div><img src="img/question.png"></div>
+                      </p>Что такое тип парковки “OG”?</p>
+                   </div>
+                   <div class="btn-block">Перейти к выбору количества дверей</div>
+                </div>
+             </div>
+             <div data-item="6" class="step-block">
+                <div class="sub_header">
+                   Стоимость собранной вами
+                   <br>
+                   конструкции:
+                </div>
+                <div class="price-block">
+                   95 666 ₽*
+                </div>
+                
+                <div class="hidden__col video-block">
+                   <div class="tovar__el tovar__el--mod tovar__el--video" style="background-image: url(img/price_video.png);">
+                      <iframe width="560" height="400" src="https://www.youtube.com/embed/POmoZ--MpWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                   </div>
+                </div>
+                <div class="small-text">
+                   *Усреднённая стоимость товара без учета НДС.
+                   <br>
+                   Доставка и монтаж рассчитываются отдельно.
+                </div>
+                <div class="btns-block">
+                   <a class="btn"><img src="img/arrow-left.png"></a>
+                   <a class="btn"><span>Получить точный расчет</span><img src="img/plus-minus.png"></a>
+                </div>
+             </div>
+             <div data-item="7" class="step-block">
+                <div class="row">
+                   <div class="hidden__col col-lg-4">
+                       <h2 class="modal-title text-center">Расчет проекта</h2>
+                      <p class="text-center">Соберем ваш проект всего за 45 минут. Наш консультант свяжется с вами в ближайшее время для обсуждения всех деталей вашего заказа.</p>
+                   </div>
+                   <div class="hidden__col  col-lg-4">
+                      
+                      <form action="" class="form form--mod2 form--mod3 w-100">
+                         <div class="ks-select select w-100 mb-3" name="">
+                            <div class="ks-select__current">
+                              <span>Архитектор</span>
+                              <img src="img/arr4.svg" alt="" class="ml-2">
+                            </div>
+                            <div class="ks-select__block" style="display: none;">
+                               <div class="ks-select__list">
+                                  <div class="ks-select__item active">Архитектор</div>
+                                  <div class="ks-select__item">Клиент</div>
+                                  <div class="ks-select__item">Партнер</div>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="form__line">
+                            <input type="text" placeholder="Имя">
+                         </div>
+                         <div class="form__line">
+                            <input type="text" placeholder="Почта">
+                         </div>
+                         <div class="form__line">
+                            <input type="tel" placeholder="Телефон">
+                         </div>
+                      
+                            
+                         <a href="" class="btn w-100 p-0 gray-btn">Прикрепить проект <img src="images/icon.png"></a>
+                         
+                         <div class="form__line">
+                            <input type="text" placeholder="Примечания">
+                         </div>
+                          <label for="politika" class="checkbox-wrap">
+                            <input type="checkbox" id="politika" style="display: none;" checked="">
+                            <div class="checkbox"></div>
+                            <span>Нажимая кнпоку “Отправить заявку”
+                               я соглашаюсь с Условиями обработки
+                               персональных данных</span>
+                         </label>
+                         <a href="lk.html" class="btn btn--blue w-100 p-0" type="submit">Отправить заявку</a>
+                      
+                   </div>
+                  
+                   
+                </div>
+             </div>
+             <div data-item="8" class="step-block">
+                <div class="hidden__col col-lg-4">
+                   <h2 class="modal-title text-center">Что такое конструкция “Раздвижная перегородка НОРМА”?</h2>
+                   <p class="text-center paragraph">Раздвижная перегородка NORMA – это звукоизоляционная и пожаробезопасная конструкция типа «гармошка». Она состоит из отдельных панелей, которые перемещаются по потолочному треку и собираются в парковочную зону. Панели скрепляются между собой специальными петлями. Для удержания в заданном положении используются магнитные защелки. Открывать раздвижную стену легко, с этим справится любой человек. Материал раздвижной конструкции: ЛДСП, шпон, магнитно-маркерное покрытие, стеклянные вставки, алюминиевый профиль и многое другое.</p>
+                </div>
+                <div class="hidden__col col-lg-4 full-col">
+                   <div class="half-part">
+                      <img src="img/map_left.png">
+                   </div>
+                   <div class="half-part">
+                   <img src="img/map_right.png">
+                   </div>
+                </div>
+                <div class="hidden__col col-lg-4">
+                <p class="text-center paragraph">
+                Раздвижная перегородка гармошка зонирует пространство помещения на несколько отдельных зон. Каждую из них можно использовать для определенных задач (переговоры, работа, обучение, занятия музыкой, танцами). Исчезает необходимость в дополнительном помещении, а это немалая экономия средств. Именно поэтому раздвижные перегородки используют в различных областях деятельности: концертные, спортивные и конференц-залы, гостиницы, школы и детские сады, квартиры и коттеджи. Раздвижные перегородки очень популярны в офисах.
+                </p>
+                </div>
+
+             </div>
+             
+
+             
+              </form>
+          </div>
+        
+          
+      </div>
+  </div>
+
+
+ <div class="start__hidden" id="hidden5">
+    <div class="row">
+       <div class="hidden__col hidden__col4">
+          <div class="flex first">
+             <a class="hidden__hh back-url"><img src="img/arrow-left.png"> Назад в меню</a>
+          </div>
+          
+          <div class="flex clients-menu architechts-menu partners-menu">
+             <a href="garanty.html" class="hidden__hh mt-4">Гарантии и сертификаты</a>
+              <a href="works.html" class="hidden__hh mt-4">Как мы работаем</a>
+          </div>
+          <div class="flex clients-menu architechts-menu">
+             <a href="quotes.html" class="hidden__hh mt-4">Отзывы</a>
+             <a href="delivery.html" class="hidden__hh mt-4">Доставка</a>
+          </div>
+          <div class="flex partners-menu architechts-menu">
+             <a href="contacts.html" class="hidden__hh mt-4">Контакты</a>
+             <a href="vacancy.html" class="hidden__hh mt-4">Вакансии</a>
+          </div>
+          
+          
+       </div>
+       
+       
+       
+    </div>
+ </div>
+
+
+ <div class="start__hidden" id="hidden6">
+    <div class="row">
+       <div class="hidden__col hidden__col4">
+          <div class="flex first">
+             <a class="hidden__hh back-url"><img src="img/arrow-left.png"> Назад в меню</a>
+          </div>
+          <div class="flex clients-menu architechts-menu">
+             <a href="history.html" class="hidden__hh mt-4">История</a>
+              <a href="we.html" class="hidden__hh mt-4">Наши лица</a>
+          </div>
+          <div class="flex partners-menu architechts-menu">
+             <a href="news.html" class="hidden__hh mt-4">Новости</a>
+             <a href="article.html" class="hidden__hh mt-4">Статьи</a>
+          </div>
+          <div class="flex clients-menu architechts-menu">
+             <a href="whywe.html" class="hidden__hh mt-4">Почему мы</a>
+             <a href="faq.html" class="hidden__hh mt-4">FAQ</a>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <div class="start__hidden" id="hidden7">
+    <div class="row">
+       <div class="hidden__col hidden__col4">
+          <div class="flex first">
+             <a class="hidden__hh back-url"><img src="img/arrow-left.png"> Назад в меню</a>
+          </div>
+          
+       </div>
+       <div class="hidden__col  col-lg-4 img-blocks">
+          <div class="img-block">
+             <img src="img/steni.png">
+             <div class="img-text">
+                <p class="img-head"><a href="catalog-steni.html">Раздвижные стены</a></p>
+                <p class="image-text">от 18 000 ₽/м² - 2 бренда = 7 типов конструкций</p>
+             </div>
+          </div>
+       </div>
+       <div class="hidden__col  col-lg-4 img-blocks">
+          <div class="img-block">
+             <img src="img/peregorodki.png">
+             <div class="img-text">
+                <p class="img-head"><a href="catalog.html">Раздвижные перегородки</a></p>
+                <p class="image-text">от 18 000 ₽/м² - 2 бренда = 7 типов конструкций</p>
+             </div>
+          </div>
+       </div>
+       <div class="hidden__col  col-lg-4 img-blocks">
+          <div class="img-block">
+             <img src="img/materials.png">
+             <div class="img-text">
+                <p class="img-head"><a href="otdelka.html">Материалы отделки</a></p>
+                
+             </div>
+          </div>
+       </div>
+       <div class="hidden__col  col-lg-4 img-blocks">
+          <div class="img-block">
+             <img src="img/image.png">
+             <div class="img-text">
+                <p class="img-head"><a href="novinki.html">Новинки</a></p>
+                
+             </div>
+          </div>
+       </div>
+       <div class="hidden__col col-lg-4 img-blocks">
+          <div class="anouncement">
+             <div class="anouncement-head">
+                <img src="img/upload_icon.png"><span class="heading">Каталог Folding 2021</span>
+             </div>
+             <div class="image-text">
+                Подробный каталог в PDF формате с дополнительной информацией о товарах
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <div class="breakdown-block"></div>
 
    <script type="text/javascript" src="js/libs.js" defer></script>
    <script type="text/javascript" src="js/js.js" defer></script>

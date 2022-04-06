@@ -2224,6 +2224,11 @@ a.projects__filter.pf_off{
 a.projects__filter.pf_off, .filters__opened.pf_off{
   display: none;
 }
+div.projects__filter.pf_off, .filters__opened.pf_off{
+  display: none;
+}
+
+
 a.filters__opened_close {
   display: inline-flex;
   align-items: center;
@@ -3788,6 +3793,12 @@ img.proj_play{
 .start__btm:hover {
   height: 140px;
 }
+@media all and (max-width: 767px){
+  .start__btm:hover {
+    height: 80px;
+    color: white;
+  }
+}
 .start__btm img {
   transform: rotate(90deg);
 }
@@ -4507,7 +4518,7 @@ a.start__hidden .hidden__hh:hover {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 424px) {
   #hidden2 .hidden__hh {
     font-size: 22px;
   }
